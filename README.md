@@ -21,7 +21,7 @@ Establishing wireless communication between (just) two watches took us way longe
 
 # Setup
 First, follow the instructions in the manual to use the arduino IDE together with the watch.  
-Open the whole project in the IDE and have a quick look at the _EventProcessing_TTGOWATCH.ino_ file and move to [this](https://github.com/reuterma24/EventProcessing-TTGOWATCH/blob/59c1df0fea0641a8e6914c44a1d574a6165ffd08/EventProcessing_TTGOWATCH.ino#L14-L19") section.  
+Open the whole project in the IDE and have a quick look at the _EventProcessing_TTGOWATCH.ino_ file and move to [this](https://github.com/reuterma24/EventProcessing-TTGOWATCH/blob/59c1df0fea0641a8e6914c44a1d574a6165ffd08/EventProcessing_TTGOWATCH.ino#L14-L19) section.  
 Here it is mandatory to comment out two IPAddresses so that each watch gets a unique address in the network. You may also need to change the first 3 places of the IPAddress, the gateway and the subnet mask depending on your router.
   
 To assign each watch a different pattern you have to navigate over [here](https://github.com/reuterma24/EventProcessing-TTGOWATCH/blob/2c32c4b20f21b82e40b3754daf2be002b74c8a8d/CEP.ino#L173-L180) in the _CEP.ino_ file. 
