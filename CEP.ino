@@ -176,7 +176,7 @@ static bool CEP()
     //SEQ(AND(B, F), SEQ(A, B, D))
     //pattern = SEQ(AND(EventIndecies[B], EventIndecies[F]).res, SEQ(SEQ(EventIndecies[A], EventIndecies[B]).res, EventIndecies[D]).res);
 
-    //AND(SEQ(E, A, C, B, F, D)
+    //AND(SEQ(E, A, C), SEQ(B, F, D))
     pattern = AND(SEQ(SEQ(EventIndecies[E], EventIndecies[A]).res, EventIndecies[C]).res, SEQ(SEQ(EventIndecies[B], EventIndecies[F]).res, EventIndecies[D]).res); 
 
     //Check result
