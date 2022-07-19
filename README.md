@@ -11,11 +11,11 @@ Events are represented as letters ranging from A to F in our implementation. Eac
 We wrote a _library like_ EventProcessing Class called CEP. Therefore it should be easy to assign an arbitrary complex pattern to an individual watch.
 
 
-# What went well ?
+# What Went Well
 The whole setup and deploying code to the watch from the arduino IDE was well documented in a manual and went suprisingly smooth. Only minor difficulties.
 
 
-# Obstacles ...
+# Obstacles
 Establishing wireless communication between (just) two watches took us way longer than expected. 
 
 
