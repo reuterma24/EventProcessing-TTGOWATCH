@@ -15,7 +15,7 @@ We wrote a _library like_ EventProcessing Class called CEP. Therefore it should 
 The whole setup and deploying code to the watch from the arduino IDE was well documented in a manual and went suprisingly smooth. Only minor difficulties.
 
 
-# Obstacles
+# Obstacles ...
 Establishing wireless communication between (just) two watches took us way longer than expected. 
 
 
